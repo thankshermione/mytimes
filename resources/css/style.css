@@ -1,3 +1,8 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+
 /* Header */
 
 .logo {
@@ -20,15 +25,20 @@ header {
   justify-content: space-between;
   border-bottom: 1px solid black;
   padding-bottom: 10px;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+  margin: 0;
 }
 
 nav {
 	display: inline-block;
-	padding-right: 40px;
+	padding-right: 45px;
 }
 
 nav span {
-	padding: 7px;
+	padding: 10px;
 }
 
 a {
