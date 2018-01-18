@@ -1,6 +1,7 @@
-html{
-	margin: 0;
-	padding: 0;
+/* Universal Styles */
+	
+header {
+	background-color: white;
 }
 
 /* Header */
@@ -43,4 +44,35 @@ nav span {
 
 a {
 	color: black;
+}
+
+/* Main Content */
+
+.main,
+.column,
+.article {
+	border: 1px solid black;
+}
+
+.main {
+	display: inline-flex;
+	position: relative;
+	top: 71px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.column.left {
+	width: 630px;
+}
+
+.column.middle {
+	width: 300px;
+}
+
+.column.right {
+	width: 240px;
 }
