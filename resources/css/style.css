@@ -59,6 +59,49 @@ body {
 	border: 1px solid black;
 }
 
+.article {
+	font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.article.image {
+	font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+}
+
+.article.image p {
+	margin: 0;
+}
+
+.article.image.top {
+	font-size: 40px;
+	background-image: url("../images/phish.png");
+	height: 300px;
+	width: 630px;
+	text-align: left;
+}
+
+.article.image.earth {
+	background-image: url("../images/earth.png");
+}
+
+.article.image.camera {
+	background-image: url("../images/camera.png");
+}
+
+.article.image.cat {
+	background-image: url("../images/cat.png");
+}
+
 .main {
 	display: inline-flex;
 	position: relative;
