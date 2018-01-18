@@ -11,6 +11,7 @@ header {
 	display: inline-flex;
 	align-items: center;
 	padding-left: 25px;
+	padding-top: 10px;
 }
 
 .logo p {
@@ -48,6 +49,10 @@ a {
 
 /* Main Content */
 
+body {
+	margin: 0px;
+}
+
 .main,
 .column,
 .article {
@@ -57,12 +62,14 @@ a {
 .main {
 	display: inline-flex;
 	position: relative;
-	top: 71px;
+	top: 81px;
+	width: 100%;
 }
 
 .column {
 	display: flex;
 	flex-direction: column;
+	padding: 35px 35px 0px 0px;
 }
 
 .column.left {
