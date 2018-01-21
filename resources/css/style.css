@@ -183,7 +183,7 @@ footer {
 	align-items: center;
 	background-color: MediumAquamarine;
   margin: auto;
-  padding: 60px;
+  padding: 110px;
   font-family: Verdana;
   font-size: 12px;
   line-height: 20px;
@@ -195,4 +195,8 @@ footer .bottomlogo a {
   font-weight: bold;
   color: white;
   text-decoration: none;
+}
+
+footer p {
+	margin-bottom: 0;
 }
