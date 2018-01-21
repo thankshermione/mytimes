@@ -1,6 +1,7 @@
 /* Universal Styles */
 	
-header {
+header,
+main {
 	background-color: white;
 }
 
