@@ -34,9 +34,13 @@ header {
   margin: 0;
 }
 
-nav {
-	display: inline-block;
+header nav {
 	padding-right: 45px;
+}
+
+footer nav,
+header nav {
+	display: inline-block;
 }
 
 nav span {
@@ -170,3 +174,25 @@ li a {
 
 /* Footer */
 
+footer {
+	position: relative;
+	top: 81px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: MediumAquamarine;
+  margin: auto;
+  padding: 60px;
+  font-family: Verdana;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+footer .bottomlogo a {
+	font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
