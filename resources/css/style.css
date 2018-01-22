@@ -142,6 +142,11 @@ body {
 
 .column.middle {
 	width: 300px;
+	padding-top: 15px;
+}
+
+.column.middle .article.text {
+	padding-bottom: 25px;
 }
 
 .column.right {
