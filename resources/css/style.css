@@ -58,11 +58,11 @@ body {
 	margin: 0px;
 }
 
-.main,
+/*.main,
 .column,
 .article {
 	border: 1px solid black;
-}
+}*/
 
 .article {
 	font-family: Georgia;
@@ -116,7 +116,7 @@ body {
 	position: relative;
 	top: 81px;
 	width: 100%;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .column {
@@ -124,6 +124,16 @@ body {
 	flex-direction: column;
 	padding-top: 35px;
 	padding-bottom: 70px;
+}
+
+.stories {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+}
+
+.stories .article.text {
+	margin-bottom: 30px;
 }
 
 .column.left {
